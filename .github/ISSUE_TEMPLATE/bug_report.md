@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Found an issue? Create an issue... and send it to McDonald's
 title: "[BUG]"
 labels: bug
 assignees: ''
@@ -33,3 +33,6 @@ If applicable, add screenshots to help explain your problem.
 
 **Additional context**
 Add any other context about the problem here.
+
+
+***PLEASE*** submit these reports to McDonald's yourself: https://www.mcdonalds.com/us/en-us/feedback.html

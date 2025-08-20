@@ -1,8 +1,8 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
+about: Unlikely to be fufilled, but you are more than welcome to share.
+title: "[FR]"
+labels: enhancement
 assignees: ''
 
 ---
