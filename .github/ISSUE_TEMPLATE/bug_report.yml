@@ -1,5 +1,5 @@
 name: Bug report
-about: Found an issue? Create an issue... and send it to McDonald's
+description: Found an issue? Create an issue... and send it to McDonald's
 title: "[BUG]: "
 labels: bug
 body:
