@@ -65,7 +65,7 @@ body:
   validations:
     required: true
 - type: input
-  id: platform
+  id: app-version
   attributes:
     label: App Version
     description: Check your OS's app information for this
