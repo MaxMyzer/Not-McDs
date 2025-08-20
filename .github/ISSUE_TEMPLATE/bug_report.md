@@ -1,4 +1,3 @@
----
 name: Bug report
 about: Found an issue? Create an issue... and send it to McDonald's
 title: "[BUG]: "
@@ -96,4 +95,3 @@ body:
       render: bash
     validations:
       required: true
----
