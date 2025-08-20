@@ -75,7 +75,7 @@ body:
 - type: checkboxes
   id: acknowledge
   attributes:
-    label: Please acknowledge any that apply:
+    label: Please acknowledge any that apply
     description: You may select more than one.
     options:
       - label: I will [send](https://www.mcdonalds.com/us/en-us/feedback.html) this bug report to McDonald's.
