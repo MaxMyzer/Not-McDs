@@ -3,7 +3,6 @@ name: Bug report
 about: Found an issue? Create an issue... and send it to McDonald's
 title: "[BUG]: "
 labels: bug
-assignees: ''
 body:
   - type: textarea
     id: description
@@ -13,6 +12,7 @@ body:
       render: bash
     validations:
       required: true
+  
   - type: textarea
     id: repro
     attributes:
@@ -26,6 +26,7 @@ body:
       render: bash
     validations:
       required: true
+  
   - type: textarea
     id: behavior_expected
     attributes:
@@ -34,6 +35,7 @@ body:
       render: bash
     validations:
       required: true
+  
   - type: textarea
     id: behavior_actual
     attributes:
@@ -42,6 +44,7 @@ body:
       render: bash
     validations:
       required: true
+  
   - type: input
     id: platform
     attributes:
@@ -49,6 +52,7 @@ body:
       placeholder: Android 16
     validations:
       required: true
+  
   - type: dropdown
     id: which-app
     attributes:
@@ -64,6 +68,7 @@ body:
         - Other
     validations:
       required: true
+  
   - type: input
     id: app-version
     attributes:
@@ -72,6 +77,7 @@ body:
       placeholder: 25.71.2
     validations:
       required: true
+  
   - type: checkboxes
     id: acknowledge
     attributes:
@@ -82,10 +88,12 @@ body:
           required: true
         - label: This repository is not affiliated with McDonald's Corperation.
           required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Anything else?
+      description: Screenshots or additional context?
+      render: bash
+    validations:
+      required: true
 ---
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Additional context**
-Add any other context about the problem here.
